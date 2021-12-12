@@ -1,0 +1,29 @@
+{
+  "components": {
+    "plugins": {
+      "Visualizer": {
+        "src": "src/plugins/Visualizer",
+        "test": "test/plugins/Visualizer"
+      }
+    },
+    "visualizers": {
+      "MyVisualizer": {
+        "src": "panels/MyVisualizer/MyVisualizerPanel",
+        "title": "MyVisualizer",
+        "panel": "src/visualizers/panels/MyVisualizer",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/MyVisualizer"
+      }
+    },
+    "seeds": {
+      "MySeed": {
+        "src": "src/seeds/MySeed"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {},
+    "visualizers": {},
+    "seeds": {}
+  }
+}
